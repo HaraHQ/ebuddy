@@ -1,0 +1,11 @@
+{
+  "name": "firebase-repo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "firebase emulators:start --only firestore --import=./cache"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

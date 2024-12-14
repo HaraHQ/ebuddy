@@ -7,6 +7,9 @@
       "inputs": ["$TURBO_DEFAULT$", ".env*"],
       "outputs": [".next/**", "!.next/cache/**"]
     },
+    "sync": {
+      "outputs": ["shared/**/*"]
+    },
     "lint": {
       "dependsOn": ["^lint"]
     },
@@ -14,8 +17,12 @@
       "dependsOn": ["^check-types"]
     },
     "dev": {
+      "outputs": [],
       "cache": false,
       "persistent": true
+    },
+    "firebase#emulator": {
+      "cache": true
     }
   }
 }

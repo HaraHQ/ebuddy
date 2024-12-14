@@ -1,0 +1,18 @@
+{
+  "apiKey": "AIzaSyB8ojns5m6kZGhSX7f4kwqtBI8gtD7xEtM",
+  "authDomain": "ebuddy-3d760.firebaseapp.com",
+  "projectId": "ebuddy-3d760",
+  "storageBucket": "ebuddy-3d760.firebasestorage.app",
+  "messagingSenderId": "978843089515",
+  "appId": "1:978843089515:web:824e51162165498fc14f2e",
+  "emulators": {
+    "firestore": {
+      "port": 8080
+    },
+    "ui": {
+      "enabled": true,
+      "port": 9000
+    },
+    "singleProjectMode": true
+  }
+}
